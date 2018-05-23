@@ -11,6 +11,11 @@ body {
   color: #424242;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 h1, h2, h3, h4, h5 {
   margin: 0; 
 }
@@ -47,19 +52,21 @@ ul {
  */
 
 .header {
+  width: 100%;  
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   min-height: 56px;
   transition: min-height 0.3s;
 }
 
 .header__inner {
-  width: 100%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .header__logo {
-  height: 72px;
+  height: 50px;
+  /* was 75px */
   margin-right: 1em;
   vertical-align: top;
   margin-top: 12px;
@@ -67,10 +74,16 @@ ul {
 
 .header__title {
   font-weight: 300;
-  font-size: 4em;
+  font-size: 2em;
+  /* was 4rem */
   margin: 0.5em 0.25em;
   display: inline-block;
   color: #212121;
+}
+
+.header__burger {
+  font-size: 35px;
+  color: #aaa;
 }
 
 
@@ -371,3 +384,11 @@ footer a {
   text-decoration: none;
   color: #333;
 }
+
+/* 
+*
+* Media Queries
+*
+*/
+
+
