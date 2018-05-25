@@ -13,18 +13,54 @@ I've left some boilerplate below for you.
 */
 
 body {
-
-}
-
-article {
   max-width: 50em;
   margin: 0 auto;
 }
 
-h1 {
+article {
 
+}
+
+h1 {
+ text-align: center;
 }
 
 img {
   max-width: 100%;
+}
+
+
+hr.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.style18:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
+footer {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.fab {
+  font-size: 2em;
+  margin-right: .75em;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #999;
 }
