@@ -11,6 +11,12 @@ Hint! You'll probably want to start by styling:
 I've left some boilerplate below for you.
 
 */
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
 
 body {
   max-width: 50em;
@@ -53,9 +59,10 @@ footer {
   margin-bottom: 1em;
 }
 
-.fab {
-  font-size: 2em;
-  margin-right: .75em;
+a {
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-right: 1em;
 }
 
 a:link,
@@ -64,3 +71,4 @@ a:hover,
 a:active {
   color: #999;
 }
+
